@@ -1,0 +1,6 @@
+streamlit
+numpy
+scikit-learn
+# Replace "scikit-learn" above with the version you trained with, e.g. scikit-learn==1.5.2
+# Find it by running: pip show scikit-learn
+# Add "pandas" only if your app imports it.
