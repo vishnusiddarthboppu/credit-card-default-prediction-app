@@ -1,4 +1,5 @@
-# 💳 Credit Card Default Risk Predictor
+# 💳 Credit Card Default Risk Predictor 
+https://credit-card-defaulter-prediction-app.streamlit.app/
 
 A machine learning web app that predicts whether a credit card customer will **default on their payment next month**, using demographic details, repayment history, bill amounts and payment amounts. The model is an SVM classifier (SVC), and the app is built with Streamlit.
 
