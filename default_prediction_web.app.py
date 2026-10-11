@@ -8,9 +8,11 @@ Created on Sun Oct 11 20:47:14 2026
 import numpy as np
 import pickle
 import streamlit as st
+import os
 
 #loading the saved model 
-default_loaded_model=pickle.load(open("C:/Users/vishn/OneDrive/Attachments/credit_card_Default_project/default_trained_model.sav","rb")) 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+default_loaded_model = pickle.load(open(os.path.join(BASE_DIR, "default_trained_model.sav"), "rb")) 
 
 
 #creating a function for prediction
